@@ -1,0 +1,794 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+body
+{
+    background-image: url(bckkk.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: green;
+    text-align:center;
+}
+.menu-bar ul
+{
+      display: inline-flex;
+      list-style: none;
+      color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 7px;
+    padding: 7px;
+
+}
+.menu-bar ul li a{
+   text-decoration: none;
+   color: #fff; 
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+
+
+}
+.menu-bar .fa
+{
+    margin-right: 5px;
+
+}
+.sub-menu-1
+{
+    display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 15px;
+    margin-left: -15px;
+
+
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+
+}
+ .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+
+}
+.fa-angle-right
+{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+    
+}
+.hover-me:hover .sub-menu-2
+{
+position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background: green;
+
+}
+.sub-menu-3 
+{
+    display: none;
+
+}
+.hover-m:hover .sub-menu-3
+{
+    position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background: green;
+}
+.sub-menu-4
+{
+    display: none;
+}
+.hover-q:hover .sub-menu-4
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-5
+{
+    display: none;
+}
+.hover-w:hover .sub-menu-5
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-6
+{
+    display: none;
+}
+.hover-e:hover .sub-menu-6
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-7
+{
+    display: none;
+}
+.hover-r:hover .sub-menu-7
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-8
+{
+    display: none;
+}
+.hover-t:hover .sub-menu-8
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-9
+{
+    display: none;
+}
+.hover-y:hover .sub-menu-9
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-10
+{
+    display: none;
+}
+.hover-u:hover .sub-menu-10
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-11
+{
+    display: none;
+}
+.hover-i:hover .sub-menu-11
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-18
+{
+    display: none;
+}
+.hover-f:hover .sub-menu-18
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-26
+{
+    display: none;
+}
+.hover-v:hover .sub-menu-26
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-31
+{
+    display: none;
+}
+.hover-qe:hover .sub-menu-31
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-36
+{
+    display: none;
+}
+.hover-qi:hover .sub-menu-36
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-12
+{
+    display: none;
+}
+.hover-o:hover .sub-menu-12
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-41
+{
+    display: none;
+}
+.hover-as:hover .sub-menu-41
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-46
+{
+    display: none;
+}
+.hover-zx:hover .sub-menu-46
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-19
+{
+    display: none;
+}
+.hover-g:hover .sub-menu-19
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-27
+{
+    display: none;
+}
+.hover-b:hover .sub-menu-27
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-32
+{
+    display: none;
+}
+.hover-qr:hover .sub-menu-32
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-37
+{
+    display: none;
+}
+.hover-qo:hover .sub-menu-37
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-14
+{
+    display: none;
+}
+.hover-p:hover .sub-menu-14
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-42
+{
+    display: none;
+}
+.hover-ad:hover .sub-menu-42
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-44
+{
+    display: none;
+}
+.hover-cz:hover .sub-menu-44
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-22
+{
+    display: none;
+}
+.hover-l:hover .sub-menu-22
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-24
+{
+    display: none;
+}
+.hover-x:hover .sub-menu-24
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-19
+{
+    display: none;
+}
+.hover-h:hover .sub-menu-19
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-28
+{
+    display: none;
+}
+.hover-n:hover .sub-menu-28
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-33
+{
+    display: none;
+}
+.hover-qt:hover .sub-menu-33
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-38
+{
+    display: none;
+}
+.hover-qp:hover .sub-menu-38
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-15
+{
+    display: none;
+}
+.hover-a:hover .sub-menu-15
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-42
+{
+    display: none;
+}
+.hover-af:hover .sub-menu-42
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-48
+{
+    display: none;
+}
+.hover-zv:hover .sub-menu-48
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-20
+{
+    display: none;
+}
+.hover-j:hover .sub-menu-20
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-29
+{
+    display: none;
+}
+.hover-qq:hover .sub-menu-29
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-34
+{
+    display: none;
+}
+.hover-qy:hover .sub-menu-34
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-39
+{
+    display: none;
+}
+.hover-qa:hover .sub-menu-39
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-16
+{
+    display: none;
+}
+.hover-s:hover .sub-menu-16
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-44
+{
+    display: none;
+}
+.hover-ag:hover .sub-menu-44
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-49
+{
+    display: none;
+}
+.hover-zb:hover .sub-menu-49
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-23
+{
+    display: none;
+}
+.hover-z:hover .sub-menu-23
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-25
+{
+    display: none;
+}
+.hover-c:hover .sub-menu-25
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-21
+{
+    display: none;
+}
+.hover-k:hover .sub-menu-21
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-30
+{
+    display: none;
+}
+.hover-qw:hover .sub-menu-30
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-35
+{
+    display: none;
+}
+.hover-qu:hover .sub-menu-35
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-40
+{
+    display: none;
+}
+.hover-qs:hover .sub-menu-40
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-17
+{
+    display: none;
+}
+.hover-d:hover .sub-menu-17
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-45
+{
+    display: none;
+}
+.hover-ah:hover .sub-menu-45
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-50
+{
+    display: none;
+}
+.hover-zn:hover .sub-menu-50
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-51
+{
+    display: none;
+}
+.hover-ggh:hover .sub-menu-51{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+
+}
+.sub-menu-52
+{
+    display: none;
+}
+.hover-xz:hover .sub-menu-52
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-53
+{
+    display: none;
+}
+.hover-cx:hover .sub-menu-53
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-54
+{
+    display: none;
+}
+.hover-vc:hover .sub-menu-54
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-55
+{
+    display: none;
+}
+.hover-bv:hover .sub-menu-55
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}.sub-menu-56
+{
+    display: none;
+}
+.hover-hj:hover .sub-menu-56
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-57
+{
+    display: none;
+}
+.hover-lk:hover .sub-menu-57
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+
+#manlogo
+{
+    max-width: 65px;
+    height: auto;
+    position:relative;
+    overflow: hidden;
+
+}
+#manlogo img
+{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 125%;
+    margin: 0 0 0 -14%;
+    -webkit-border-radius: 55%;
+    -moz-border-radius: 55%;
+    -ms-border-radius: 55%;
+    -o-border-radius: 55%;
+    border-radius: 55%;
+
+}
+.sub-menu-100
+{
+    display: none;
+}
+.hover-bmw:hover .sub-menu-100
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-112
+{
+    display: none;
+}
+.hover-mmw:hover .sub-menu-112
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-123
+{
+    display: none;
+}
+.hover-qazx:hover .sub-menu-123
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+.sub-menu-1212
+{
+    display: none;
+}
+.hover-xylm:hover .sub-menu-1212
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
